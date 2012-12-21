@@ -1,0 +1,59 @@
+@charset "utf-8";
+#container {
+	width: 100%;
+}
+#logo {
+	background-image: url(../images/sml_logo.png);
+	height: auto;
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
+}
+nav {
+	padding-top: 100px;
+}
+nav ul {
+	font-size: 24px;
+}
+nav ul a {
+	width: 97%;
+	padding-right: 0px;
+}
+nav ul li {
+	float: none;
+}
+nav ul li:hover {
+	margin-top: 0px;
+}
+#maincontent {
+	padding: 0px;
+	margin-top: 0px;
+}
+#vision {
+	font-size: 16px;
+	line-height: normal;
+	background-image: none;
+	height: auto;
+	width: 275px;
+	margin-left:-10px;
+	padding-top: 0px;
+}
+
+.pod{
+	width:300px;
+	padding-bottom:0px;
+	
+}
+.pod h1{
+	margin-bottom:0px;
+	
+}
+.podContent{
+	width:300px;
+	height:180px;
+	display:none;
+	
+}
+#news .podContent {
+	display:block;
+}

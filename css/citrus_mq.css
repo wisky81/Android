@@ -1,0 +1,7 @@
+/* Desktop   se le kita los media querys para que los navegadores viejitos puedan aplicar los estilos ya que no identifican los mediaquerys */
+@import url("desktop.css");
+
+/* Phone */
+@import url("phone.css") only screen and (max-width:320px);
+/* Tablet */
+@import url("tablet.css") only screen and (min-width:321px) and (max-width:768px);
